@@ -11,21 +11,59 @@
     height: 115px;
 }
   
+.titulo{
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
 .nav_categories{
-    padding-left: 10%;
+    padding-left: 100px;
     margin-top: 30px;
     color: black;
     font-size: 30px;
     text-decoration: none;
 }
 
-.carrito{
-    color: white;
-    margin: auto;
+.contenedor_carrito{
+    display: flex;
+    width: 300px;
+    justify-content: center;
+    align-self: center;
 }
 
-.btn{
+.carrito{
+    color: rgb(6, 175, 0);
+}
+
+.numero{
+    font-size: 28px;
+    align-self: center;
+    color: white;
+}
+
+.boton_productos{
     font-size: 30px;
     margin-top: 25px;
     margin-left: 150px;
 }
+
+.productos_drop{
+    background-color: rgb(0, 139, 253);
+}
+
+.saludo{
+    font-size: 20px;
+    display: flex;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+.contenedor_cuenta{
+    margin-top: 10px;
+}
+
+.boton{
+    background-color: red;
+}
+
