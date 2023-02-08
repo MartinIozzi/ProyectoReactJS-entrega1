@@ -1,0 +1,31 @@
+.barra_de_navegacion {
+    display: flex;
+    background-color: rgb(253, 122, 0);
+    height: 115px;
+}
+  
+.logo {
+    display: flex;
+    padding-left: 20px;
+    width: 130px;
+    height: 115px;
+}
+  
+.nav_categories{
+    padding-left: 10%;
+    margin-top: 30px;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.carrito{
+    color: white;
+    margin: auto;
+}
+
+.btn{
+    font-size: 30px;
+    margin-top: 25px;
+    margin-left: 150px;
+}
